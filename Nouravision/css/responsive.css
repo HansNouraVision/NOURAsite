@@ -1,1 +1,95 @@
-{\rtf1}
+/* Responsive Styles */
+
+/* Desktop Styles (1200px and above) */
+
+@media (min-width: 1200px) {
+    /* Add desktop-specific styles here */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Tablet Styles (768px to 1199px) */
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    /* Add tablet-specific styles here */
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 50px;
+    }
+    .features {
+      padding: 30px;
+    }
+    .pricing-plan {
+      padding: 30px;
+    }
+    .call-to-action {
+      padding: 30px;
+    }
+  }
+  
+  /* Mobile Styles (480px to 767px) */
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+    /* Add mobile-specific styles here */
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 20px;
+    }
+    .features {
+      padding: 20px;
+    }
+    .pricing-plan {
+      padding: 20px;
+    }
+    .call-to-action {
+      padding: 20px;
+    }
+    .nav ul {
+      flex-direction: column;
+    }
+    .nav li {
+      margin-right: 0;
+    }
+  }
+  
+  /* Small Mobile Styles (below 480px) */
+  
+  @media (max-width: 479px) {
+    /* Add small mobile-specific styles here */
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 10px;
+    }
+    .features {
+      padding: 10px;
+    }
+    .pricing-plan {
+      padding: 10px;
+    }
+    .call-to-action {
+      padding: 10px;
+    }
+    .nav ul {
+      flex-direction: column;
+    }
+    .nav li {
+      margin-right: 0;
+    }
+    .our-partners ul {
+      flex-direction: column;
+    }
+    .our-partners li {
+      margin-right: 0;
+    }
+  }

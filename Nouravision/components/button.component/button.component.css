@@ -1,0 +1,23 @@
+/* Button Component Styles */
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-primary:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }

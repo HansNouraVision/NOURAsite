@@ -1,0 +1,47 @@
+/* Navigation Component Styles */
+
+.nav {
+    background-color: #333; 
+    padding: 1em;
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;  
+  }
+  
+    .nav-brand {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-brand img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    
+  .nav-brand span {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    
+  .nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+  
+    .nav li {
+      margin-right: 20px;
+    }
+    
+  .nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+  
+    .nav a:hover {
+      color: #ccc;
+    }
