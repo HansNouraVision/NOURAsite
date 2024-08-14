@@ -1,432 +1,58 @@
-@charset "UTF-8";
-
-/*----------------------------
-Table of contents
-
-01. Google font
-02. Reset
-03. Typography
-04. Background color
-05. Custom
-06. Button
-07. Border
-08. Video
-09. Background image
-10. Margin
-11. Padding
-12. Display and overflow
-13. Position
-14. Width
-15. Height
-16. Icon
-17. Magnific popup
-18. Header
-
-*/
-
-/* ===================================
-    01. Google font
-====================================== */
-
-/*@import 
-@import */
-
-/* ===================================
-    02. Reset
-====================================== */
-
-/*code*/
-
-/* ===================================
-    03. Typography
-====================================== */
-
-/* font family */
-/*code*/
-
-/* heading size */
-/*code*/
-
-/* text size */
-/*code*/
-
-/* text color, link color and link hover color */
-/*code*/
-
-/* text gradient color */
-/*code*/
-
-/* text stroke */
-/*code*/
-
-/* text stroke width */
-/*code*/
-
-/* text stroke color */
-/*code*/
-
-/* letter spacing */
-/*code*/
-
-/* letter spacing minus */
-/*code*/
-
-/* font weight */
-/*code*/
-
-/* text property */
-/*code*/
-
-/*code*/
-
-/* dropcap */
-/*code*/
-
-/* lineheight */
-/*code*/
-
-/* ===================================
-    04. Background color
-====================================== */
-
-/*code*/
-
-/*code*/
-/* background gradient color */
-/*code*/
-
-/* background transparent gradient color */
-/*code*/
-
-/* hover background */
-/*code*/
-
-/* ===================================
-    05. Custom
-====================================== */
-
-/*code*/
-
-/* box layout */
-/*code*/
-
-/* overlap */
-/*code*/
-
-/* revolution slider bullet */
-/*code*/
-
-/* svg drawing path */
-/*code*/
-
-/* google map filters */
-/*code*/
-
-/* blockquote */
-/*code*/
-
-/* blog blockquote */
-/*code*/
-
-/* input box border */
-/*code*/
-
-/* input size */
-/*code*/
-
-/* newsletter size */
-/*code*/
-
-/*code*/
-
-/* newsletter popup */
-/*code*/
-
-/* tag */
-/*code*/
-
-/* separator */
-/*code*/
-
-/* overlay background */
-/*code*/
-
-/* opacity */
-/*code*/
-
-/*code*/
-
-/* box shadow */
-/*code*/
-
-/* text shadow */
-/*code*/
-
-/* drop shadow */
-/*code*/
-
-/* z-index */
-/*code*/
-
-/* absolute middle center */
-/*code*/
-
-/* checkbox - radio button */
-/*code*/
-
-/* ===================================
-    06. Button
-====================================== */
-
-/*code*/
-
-/* button size */
-/*code*/
-
-/* rounded button */
-/*code*/
-
-/* animation button */
-/*code*/
-
-/* slide button */
-/*code*/
-
-/* fancy button */
-/*code*/
-
-/* expanded button */
-/*code*/
-
-/* link button */
-/*code*/
-
-/* button box shadow */
-/*code*/
-
-/* button box shadow flat */
-/*code*/
-
-/* button flat background */
-/*code*/
-
-/* button only border */
-/*code*/
-
-/* button gradient */
-/*code*/
-
-/* button gradient border */
-/*code*/
-
-/* action button */
-/*code*/
-
-/* ===================================
-    07. Border
-====================================== */
-
-/*code*/
-
-/* border width */
-/*code*/
-
-/* border color */
-/*code*/
-
-/* transparent border */
-/*code*/
-
-/* border gradient */
-/*code*/
-
-/* border style */
-/*code*/
-
-/* no border */
-/*code*/
-
-/* border radius */
-/*code*/
-
-/* ===================================
-    08. Video
-====================================== */
-
-/*code*/
-
-/* ===================================
-    09. Background image
-====================================== */
-
-/*code*/
-
-/* background parallax */
-/*code*/
-/* ===================================
-    10. Margin
-====================================== */
-
-/*code*/
-
-/* margin top */
-/*code*/
-
-/* margin bottom */
-/*code*/
-
-/* margin right */
-/*code*/
-
-/* margin left */
-/*code*/
-
-/* margin left right */
-/*code*/
-/* margin top bottom */
-/*code*/
-
-/*code*/
-
-/* ===================================
-    11. Padding
-====================================== */
-
-/*code*/
-
-/* padding top */
-/*code*/
-
-/* padding bottom */
-/*code*/
-/* padding right */
-/*code*/
-
-/* padding left */
-/*code*/
-/* padding top bottom */
-/*code*/
-
-
-
-/* ===================================
-    12. Display and overflow
-====================================== */
-
-/*code*/
-
-/* ===================================
-    13. Position
-====================================== */
-
-/*code*/
-
-/* top */
-/*code*/
-
-/* top minus */
-/*code*/
-
-/* bottom */
-/*code*/
-
-/* bottom minus */
-/*code*/
-
-/* right */
-/*code*/
-
-/* right minus */
-/*code*/
-
-/* left */
-/*code*/
-
-/* left minus */
-/*code*/
-/* ===================================
-    14. Width
-====================================== */
-
-/*code*/
-
-/*code*/
-
-/* ===================================
-    15. Height
-====================================== */
-
-/*code*/
-
-/*code*/
-
-/* min height */
-/*code*/
-
-/* screen height */
-/*code*/
-
-/* content box image */
-/*code*/
-
-/* ===================================
-    16. Icon
-====================================== */
-
-/*code*/
-
-/* video icons */
-/*code*/
-
-/* video icon size */
-/*code*/
-
-/* icon size */
-/*code*/
-
-/* social media icon */
-/*code*/
-
-/* icon like counter */
-/*code*/
-
-/* social icon style 01 */
-/*code*/
-
-/* social icon style 02 */
-/*code*/
-
-/*code*/
-/* social icon style 03 */
-/*code*/
-/* social icon style 04 */
-/*code*/
-/* social icon style 05 */
-/*code*/
-/* social icon style 06 */
-/*code*/
-/* social icon style 07 */
-/*code*/
-/* social icon style 08 */
-/*code*/
-/* social icon style 09 */
-/*code*/
-/*code*/
-
-/* social icon style 10 */
-/*code*/
-/* social icon style 11 */
-/*code*/
-/* social icon style 12 */
-/*code*/
-
-/* icon box */
-/*code*/
-/* ===================================
-    17. Magnific popup
-====================================== */
-
-/*code*/
-/* ===================================
-    18. Header
-====================================== */
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation bar styles */
+  header {
+    background-color: #FF0000; /* Red color */
+    height: 140px; /* Fixed height */
+    width: 100%; /* Expand to full width */
+    padding: 20px; /* Add some padding */
+    display: flex; /* Make it a flex container */
+    justify-content: space-between; /* Space out the content */
+    align-items: center; /* Vertically center the content */
+  }
+  
+  header h1 {
+    color: #FFFFFF; /* White text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Navigation menu styles */
+  nav {
+    display: flex; /* Make it a flex container */
+    justify-content: space-between; /* Space out the menu items */
+    align-items: center; /* Vertically center the menu items */
+  }
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Make it a flex container */
+  }
+  
+  nav li {
+    margin-right: 20px; /* Add some space between menu items */
+  }
+  
+  nav a {
+    color: #FFFFFF; /* White text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  nav a:hover {
+    color: #CCCCCC; /* Light gray text color on hover */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
