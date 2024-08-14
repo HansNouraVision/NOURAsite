@@ -1,353 +1,214 @@
-/*@JanCivrny*/
-/* Global Styles */
+/* Table of Contents
+@jan civrny
+====================
+0. Import
+1. Global Styles
+2. Navigation
+3. Hero Section
+4. Features Section
+5. Pricing Plan Section
+6. Call to Action Section
+7. Our Partners Section
+*/
+
+/* 0. Import
+=============== */
+@import 'variables.css';
+
+/* 1. Global Styles
+=============== */
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
   }
     
   body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-    }
-  
-    h1, h2, h3, h4, h5, h6 {
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-  
-  
-  p {
-      margin-bottom: 20px;
-    }
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
     
-  ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-  li {
-      margin-bottom: 10px;
-    }
-  
+  h1, h2, h3, h4, h5, h6 {  
+    font-weight: bold;
+    color: #333;
+  }
   
   a {
-      text-decoration: none;
-      color: #337ab7;
-    }
+    text-decoration: none;
+    color: #337ab7;
+  }
   
-    a:hover {
-      color: #23527c;
-    }
+  a:hover {
+    color: #23527c;
+  }
   
-    /* Header Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
-  header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+  /* 2. Navigation
+  ============= */
   
-    header h1 {
-      margin-bottom: 0;
-    }
-  
-    /* navigation.css */
-
-.nav {
-
-    background-color: #333;
-  
-    padding: 1em;
-  
+  .nav {
+    background-color: var(--primary-color);
+    padding: var(--spacing-medium);
     display: flex;
-  
     justify-content: space-between;
-  
     align-items: center;
-  
   }
   
-  
+
   .nav-brand {
-  
-    display: flex;
-  
-    align-items: center;
-  
+    font-size: var(--font-size-large);  
+    color: var(--secondary-color);  
+    text-decoration: none;  
   }
-  
   
   .nav-brand img {
-  
     width: 40px;
-  
     height: 40px;
-  
     margin-right: 10px;
-  
   }
-  
   
   .nav-brand span {
-  
     font-size: 18px;
-  
     font-weight: bold;
-  
     color: #fff;
-  
   }
   
-  
   .nav ul {
-  
     list-style: none;
-  
     margin: 0;
-  
     padding: 0;
-  
     display: flex;
-  
   }
   
   
   .nav li {
-  
-    margin-right: 20px;
-  
+  right: 20px;
   }
-  
   
   .nav a {
-  
     color: #fff;
-  
     text-decoration: none;
-  
     transition: color 0.2s ease;
-  
   }
-  
   
   .nav a:hover {
-  
     color: #ccc;
-  
   }
   
+  /* 3. Hero Section
+  ============= */
   
-  /* Button Component */
-  
-  .btn {
-  
-    border: none;
-  
-    border-radius: 5px;
-  
-    padding: 10px 20px;
-  
-    font-size: 16px;
-  
-    cursor: pointer;
-  
-  }
-  
-  
-  .btn-primary {
-  
-    background-color: #4CAF50;
-  
-    color: #fff;
-  
-  }
-  
-  
-  .btn-primary:hover {
-  
-    background-color: #3e8e41;
-  
-  }
-    
-  /* Hero Section */
-   
   .hero {
-      background-color: #FFC107;
-      padding: 100px;
-      text-align: center;
-      color: #333;
-    }
-    
-  .hero h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
+    background-image: linear-gradient(to bottom, #333, #444);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
   
-    .hero button {
-      background-color: #337ab7;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 18px;
-      cursor: pointer;
-    }
-    
-  .hero button:hover {
-      background-color: #23527c;
-    }
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
   
-  
-  /* What is Nutrition Section */
-   
-  .what-is-nutrition {
-      background-color: #8BC34A;
-      padding: 50px;
-    }
-  
-  
-  .what-is-nutrition h2 {
-      margin-top: 0;
-    }
-  
-  
-  /* Why Nutrition Section */
-   
-  .why-nutrition {
-      background-color: #2196F3;
-      padding: 50px;
-      color: #fff;
-    }
-  
-    .why-nutrition h2 {
-      margin-top: 0;
-    }
-  
-    .why-nutrition ul {
-      margin-top: 20px;
-    }
-  
-    .why-nutrition li {
-      margin-bottom: 10px;
-    }
-  
-    .why-nutrition i {
-      margin-right: 10px;
-      font-size: 24px;
-    }
-  
-    /* Our Partners Section */
-    
-  .our-partners {
-      background-color: #F7DC6F;
-      padding: 50px;
-    }
-  
-    .our-partners h2 {
-      margin-top: 0;
-    }
-  
-    .our-partners ul {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-    
-  .our-partners li {
-      margin-right: 20px;
-    }
-    
-  .our-partners img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-    }
-  
-  
-  /* Features Section */
-    
+  /* 4. Features Section
+  ============= */
   .features {
-      background-color: #4CAF50;
-      padding: 50px;
-      text-align: center;
-      color: #fff;
-    }
-    
+    padding: 50px;
+  }
+  
   .features h2 {
-      margin-top: 0;
-    }
-    
-  .features button {
-      background-color: #337ab7;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 18px;
-      cursor: pointer;
-    }
+    margin-top: 0;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
   
   
-  .features button:hover {
-      background-color: #23527c;
-    }
+  .feature h3 {
+    margin-top: 0;
+  }
   
-    /* Pricing Plan Section */
-    
+  
+  /* 5. Pricing Plan Section
+  ============= */
+  
   .pricing-plan {
-      background-color: #9C27B0;
-      padding: 50px;
-      text-align: center;
-      color: #fff;
-    }
-    
+    padding: 50px;
+  }
+  
   .pricing-plan h2 {
-      margin-top: 0;
-    }
+    margin-top: 0;
+  }
   
-    .pricing-plan ul {
-      margin-top: 20px;
-    }
+  .plan {
+    margin-bottom: 20px;
+  }
   
-    .pricing-plan li {
-      margin-bottom: 10px;
-    }
+  .plan h3 {
+    margin-top: 0;
+  }
   
-    .pricing-plan h3 {
-      margin-top: 0;
-    }
+  /* 6. Call to Action Section
+  ============= */
   
-    .pricing-plan p {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-  
-    /* Call to Action Section */
-    
   .call-to-action {
-      background-color: #FF69B4;
-      padding: 50px;
-      text-align: center;
-      color: #fff;
-    }
-  
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
   
   .call-to-action h2 {
-      margin-top: 0;
-    }
-    
-  .call-to-action button {
-      background-color: #337ab7;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 18px;
-      cursor: pointer;
-    }
+    margin-top: 0;
+  }
   
-    .call-to-action button:hover {
-      background-color: #23527c;
-    }
+  /* 7. Our Partners Section
+  ============= */
+  
+  .our-partners {
+    padding: 50px;
+  }
+  
+  .our-partners h2 {
+    margin-top: 0;
+  }
+  
+  .our-partners ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  .our-partners li {
+   margin-right: 20px;
+  
+  }
+  
+  .our-partners img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
