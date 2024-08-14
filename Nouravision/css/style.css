@@ -1,4 +1,22 @@
-/* Global styles */
+/*@JanCivrny*/
+/*----------------------------------
+Table of contents
+
+01. Google font
+02. Global 
+03. Header 
+04. Hero section
+05. Why Nutrion
+06. Footer
+
+*/
+/* ===================================
+    01. Google font
+====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* ===================================
+    02. Global 
+====================================== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,53 +24,153 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
   }
   
-  /* Navigation bar styles */
-  header {
-    background-color: #FF0000; /* Red color */
-    height: 140px; /* Fixed height */
-    width: 100%; /* Expand to full width */
-    padding: 20px; /* Add some padding */
-    display: flex; /* Make it a flex container */
-    justify-content: space-between; /* Space out the content */
-    align-items: center; /* Vertically center the content */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #00698f;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00698f;
+  }
+  
+  a:hover {
+    color: #0099cc;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+/* ===================================
+    03. Header
+====================================== */
+header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
   }
   
   header h1 {
-    color: #FFFFFF; /* White text color */
-    margin: 0; /* Remove default margin */
-  }
-  
-  /* Navigation menu styles */
-  nav {
-    display: flex; /* Make it a flex container */
-    justify-content: space-between; /* Space out the menu items */
-    align-items: center; /* Vertically center the menu items */
+    color: #fff;
+    font-size: 24px;
   }
   
   nav ul {
-    list-style: none; /* Remove bullet points */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Make it a flex container */
+    display: flex;
+    justify-content: space-between;
   }
   
   nav li {
-    margin-right: 20px; /* Add some space between menu items */
+    margin-right: 20px;
   }
   
   nav a {
-    color: #FFFFFF; /* White text color */
-    text-decoration: none; /* Remove underline */
+    color: #fff;
   }
   
   nav a:hover {
-    color: #CCCCCC; /* Light gray text color on hover */
+    color: #ccc;
+  }
+/* ===================================
+    04. Hero section
+====================================== */
+.hero {
+    background-color: #ffc107;
+    padding: 40px;
+    text-align: center;
   }
   
-  /* Main content styles */
-  main {
+  .hero h2 {
+    font-size: 36px;
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #00698f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #ccc;
+  }
+/* ===================================
+    05. Why Nutrion
+====================================== */
+.why-nutrition {
+    background-color: #8bc34a;
+    padding: 40px;
+  }
+  
+  .why-nutrition h2 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .why-nutrition p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .why-nutrition ul {
     padding: 20px;
+  }
+  
+  .why-nutrition li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .why-nutrition i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+  }
+/* ===================================
+    06. Footer
+====================================== */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #ccc;
   }
